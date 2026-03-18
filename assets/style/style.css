@@ -57,3 +57,38 @@ header .container {
 .nav-links a:hover {
     color: orange;
 }
+main {
+    padding-top: 80px;
+}
+
+#hero {
+    padding: 120px 0 60px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    flex: 1;
+    background: rgba(0,0,0,0.6);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 700px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: orange;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
