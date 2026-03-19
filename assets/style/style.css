@@ -163,3 +163,21 @@ section {
 .skill-card h3 {
     color: orange;
 }
+.contact-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.contact-icons a {
+    font-size: 24px;
+    color: white;
+    background: rgba(0,0,0,0.6);
+    padding: 12px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.contact-icons a:hover {
+    background: purple;
+}
