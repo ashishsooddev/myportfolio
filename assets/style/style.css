@@ -181,3 +181,9 @@ section {
 .contact-icons a:hover {
     background: purple;
 }
+
+footer {
+    background: black;
+    padding: 20px;
+    text-align: center;
+}
