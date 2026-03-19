@@ -167,6 +167,10 @@ section {
     display: flex;
     gap: 15px;
     margin-top: 15px;
+    justify-content: center;
+}
+.centered{
+    text-align: center;
 }
 
 .contact-icons a {
