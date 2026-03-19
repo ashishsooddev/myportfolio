@@ -156,3 +156,10 @@ section {
     transition: 0.3s;
     animation: fadeIn 1s ease-in-out;
 }
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+.skill-card h3 {
+    color: orange;
+}
