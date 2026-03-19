@@ -132,3 +132,14 @@ section {
 #about {
     padding: 40px 0;
 }
+.about-myself {
+    background: rgba(0,0,0,0.6);
+    padding: 25px;
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+#about h2 {
+    color: green;
+    margin-bottom: 15px;
+}
