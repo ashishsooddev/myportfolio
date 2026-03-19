@@ -187,3 +187,39 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-text h2 {
+        font-size: 26px;
+    }
+
+    .nav-links {
+        gap: 10px;
+        font-size: 14px;
+    }
+}
